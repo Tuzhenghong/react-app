@@ -8,6 +8,9 @@
  */
 import React, { Component } from "react";
 
+// 引入外部css文件
+import './css/01-index.css'
+
 class App extends Component {
   render() {
     const myname = "mengli";
@@ -20,6 +23,7 @@ class App extends Component {
         {10 + 20} - {myname}
         <div style={{ backgroundColor: "red" }}>1111111111</div>
         <div style={obj}>2222222222</div>
+        <div className="active">3333333333333</div>
       </div>
     );
   }
