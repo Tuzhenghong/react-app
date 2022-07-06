@@ -9,7 +9,7 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 
-// 测试git提交 
+// 测试git提交
 
 // 引入class组件
 // import App from './01-base/01-class-component';
@@ -18,7 +18,15 @@ import { createRoot } from 'react-dom/client';
 // 引入嵌套组件
 // import App from './01-base/03-component-nest';
 // 引入 组件样式
-import App from './01-base/04-component-style';
+// import App from './01-base/04-component-style';
+// 引入事件绑定
+// import App from './01-base/05-event-bind';
+// 引入ref
+import App from './01-base/06-ref';
 
-const root = createRoot(document.getElementById('root'))
-root.render(<App />)
+const root = createRoot(document.getElementById('root'));
+root.render(
+    <React.StrictMode>
+        <App />
+    </React.StrictMode>
+);
